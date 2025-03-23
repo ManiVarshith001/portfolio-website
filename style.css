@@ -552,14 +552,18 @@ section {
 
 /* Projects Section */
 .projects {
-    background-color: white;
+    background-color: white(255, 255, 255);
 }
 
 .projects-showcase {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap; /* Allow wrapping if screen is small */
+    justify-content: space-between;
     gap: 3rem;
     margin-top: 3rem;
+   
+    
 }
 
 .project-card {
@@ -599,6 +603,9 @@ section {
     padding: 2rem;
     display: flex;
     flex-direction: column;
+}
+.project-content {
+    width: 100%; /* Adjust text width */
 }
 
 .project-details h3 {
