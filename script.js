@@ -479,3 +479,4 @@ window.onscroll = function() {
     // Enable theme toggler if the button exists
     themeToggler();
   });
+  
